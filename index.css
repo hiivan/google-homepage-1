@@ -1,0 +1,45 @@
+.nav-items {
+    display: flex;
+    width: 100%;
+    min-width: 350px;
+    height: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item { 
+    color: #000;
+    opacity: .75;
+    margin: 2%;
+    
+}
+.nav-square {
+    background-color: hsl(0, 0%, 25%);
+    
+}
+.nav-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#user-icon {
+    background-color: hsl(20, 100%, 75%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+#nav-spacer {
+    width: 30px;
+    height: 30px;
+    flex: 1 1 0;
+}
+#nav-options {
+    width: 20px;
+    height: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 5%;
+    row-gap: 5%;
+
+}
